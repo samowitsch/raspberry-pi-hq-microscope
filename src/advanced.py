@@ -70,8 +70,8 @@ def decrease(channel):
 def capture_photo(channel):
     logging.info("Capture photo")
     t = time.localtime()
-    filename = "capture" + time.strftime('-%Y-%m-%d_%H-%M-%S', t) + ".jpg"
-    camera.capture(PATH_CAPTURE+filename)
+    filename = PATH_CAPTURE + "capture" + time.strftime('-%Y-%m-%d_%H-%M-%S', t) + ".jpg"
+    camera.capture(filename)
 
     # owner:group can vary depending to in sd card setup given username
     os.system("chown micro:micro " + filename)
