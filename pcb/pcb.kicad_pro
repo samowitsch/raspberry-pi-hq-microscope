@@ -346,7 +346,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "bcp.kicad_pro",
+    "filename": "pcb.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -378,7 +378,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "",
+      "netlist": "../../../../../",
       "specctra_dsn": "",
       "step": "bcp.step",
       "vrml": ""
