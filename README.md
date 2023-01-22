@@ -14,7 +14,9 @@
   - [Software](#software)
     - [SD Card](#sd-card)
     - [Install needed packages](#install-needed-packages)
-    - [Crontab](#crontab)
+    - [Cronjobs](#cronjobs)
+      - [list running cronjobs](#list-running-cronjobs)
+      - [stop running cronjonb process](#stop-running-cronjonb-process)
     - [Python](#python)
   - [Links to other projects or resources](#links-to-other-projects-or-resources)
 
@@ -92,7 +94,7 @@ sudo apt install python3-picamera
 pip install picamera
 ```
 
-### Crontab
+### Cronjobs
 
 Starting needed software with crontab on boot. Can vary depending to custom needs. Use ```crontab -e``` to edit the cron jobs.
 
@@ -103,6 +105,30 @@ Starting needed software with crontab on boot. Can vary depending to custom need
 # start python script. path to user home can vary in your case
 #@reboot sudo python /home/micro/shutdown.py
 @reboot sudo python /home/micro/advanced.pyq
+```
+
+#### list running cronjobs
+
+```bash
+pstree -apl `pidof cron`
+
+or 
+
+ps aux |grep "/home/micro/advanced.py"
+
+or
+
+ps -o pid,sess,cmd afx | egrep -A20 "( |/)cron( -f)?$"
+```
+
+#### stop running cronjonb process
+
+```bash
+# stopping process
+pkill -s [pid]
+
+#example
+pkill -s 424
 ```
 
 ### Python
