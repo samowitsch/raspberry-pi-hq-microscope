@@ -38,10 +38,10 @@ o = camera.add_overlay(pad.tobytes(), size=img.size, layer=3, alpha = 254)
 #camera.remove_overlay(o)
 
 # gpio buttons of the pcb adapter board
-BTN_MODE = 17
-BTN_INCREASE = 27
-BTN_DECREASE = 22
-BTN_CAPTURE = 19
+BTN_CAPTURE = 17
+BTN_MODE = 27
+BTN_INCREASE = 22
+BTN_DECREASE = 19
 BTN_SHUTDOWN = 26
 
 # path to capture. depending to username and your custom needs
