@@ -44,7 +44,8 @@ BTN_DECREASE = 22
 BTN_CAPTURE = 19
 BTN_SHUTDOWN = 26
 
-PATH_CAPTURE = "/home/micro/"
+# path to capture. depending to username and your custom needs
+PATH_CAPTURE = "/home/micro/capture/"
 
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(BTN_MODE, GPIO.IN, pull_up_down=GPIO.PUD_UP)
