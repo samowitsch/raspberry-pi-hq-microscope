@@ -20,7 +20,10 @@
 
 ## Preface
 
-A small project to build a custom electro microscope based on a Raspberr Pi 3A+ and Raspberry HQ camera. In fact that it based on a Raspberry Pi it can be modified in any direction.
+A small project to build a custom electro microscope based on a Raspberr Pi 3A+ and Raspberry HQ camera. 
+But why a 3A+? Because of current delivery problems. The 3A+ has also a normal HDMI port and not such an
+fiddly diddly micro hdmi port 😜 Also the form factor and the geekworm case is a good choice.
+In fact that it based on a Raspberry Pi it can be modified in any direction.
 
 |                        |                        |
 | ---------------------- | ---------------------- |
