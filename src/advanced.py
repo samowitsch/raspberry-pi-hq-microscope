@@ -27,7 +27,7 @@ draw = ImageDraw.Draw(img)
 font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", 34)
 draw.text((10, 5), "RPI MICRO TEST", font=font, align ="left")
 
-pad = Image.new('RGB', (
+pad = Image.new('RGBA', (
     ((img.size[0] + 31) // 32) * 32,
     ((img.size[1] + 15) // 16) * 16,
     ))
