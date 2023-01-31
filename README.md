@@ -82,8 +82,8 @@ It has also 5 buttons that can be used to add custom functions with python.
 
 ### SD Card
 
-Prepare Sd-Card with Raspberry Pi OS Lite 32 bit as usual described in a lot of places in www. 
-64 bit version of Raspberyy Pi OS is not working because needed ```libmmal``` is not available for aarch64.
+Prepare Sd-Card with Raspberry Pi OS Lite 32 bit image as usual described in a lot of places in web with [balenaEtcher](https://www.balena.io/etcher?ref=etcher_footer) or similar tool. 
+64 bit version of Raspberry Pi OS is not working because needed ```libmmal``` is not available for aarch64.
 
 ### Install needed packages
 
