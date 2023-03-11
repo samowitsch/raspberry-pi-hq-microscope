@@ -19,6 +19,7 @@
       - [stop running cronjonb process](#stop-running-cronjonb-process)
     - [Python](#python)
   - [Links to other projects or resources](#links-to-other-projects-or-resources)
+  - [more pictures](#more-pictures)
 
 ## Preface
 
@@ -149,3 +150,7 @@ Scripts for use with cronjob. Place it in the home folder.
 * [Picamera readthedocs](https://picamera.readthedocs.io/en/latest/)
 * [Picamera library pdf](https://datasheets.raspberrypi.com/camera/picamera2-manual.pdf)
 * [Geekworm Raspberry pi case](http://wiki.geekworm.com/P88)
+
+## more pictures
+
+[More pictures](README-more-pics.md)
