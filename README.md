@@ -67,7 +67,7 @@ It has also 5 buttons that can be used to add custom functions with python.
 | ![](pics/bom/rpi-3a-plus.thumb.png)                 | 1            | Raspberry Pi 3A+                                               |
 | ![](pics/bom/geekworm-rpi-3a-plus-case.thumb.jpg)   | 1            | [Geekworm Raspberry pi case](http://wiki.geekworm.com/P88)     |
 | ![](pics/bom/rpi-hq-camera.thumb.jpg)               | 1            | Raspberry Pi HQ camera                                         |
-| ![](pics/bom/rpi-camera-cable.thumb.jpg)            | 1            | camera cable 6 cm (with luck 6cm should work too)              |
+| ![](pics/bom/rpi-camera-cable.thumb.jpg)            | 1            | camera cable 6 cm                                              |
 | ![](pics/bom/c-mount-180x-zoom-objective.thumb.jpg) | 1            | 180x zoom objective with c-mount                               |
 | ![](pics/bom/barlow-lens-0.5x.thumb.jpg)            | 1            | 0.5x barlow lens                                               |
 | ![](pics/bom/led-ring-light.thumb.jpg)              | 1            | LED ring light                                                 |
