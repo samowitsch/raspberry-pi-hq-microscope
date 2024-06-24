@@ -105,7 +105,7 @@ Starting needed software with crontab on boot. Can vary depending to custom need
 
 # start python script. path to user home can vary in your case
 #@reboot sudo python /home/micro/shutdown.py
-@reboot sudo python /home/micro/advanced.pyq
+@reboot sudo python /home/micro/advanced.py
 ```
 
 #### list running cronjobs
