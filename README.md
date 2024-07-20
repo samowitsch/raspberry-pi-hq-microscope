@@ -147,8 +147,8 @@ Scripts for use with cronjob. Place it in the home folder.
 * [Github: amphioxus/raspi_camera_scripts](https://github.com/raspberrypi/picamera2)
 * [Github: raspberrypi/picamera2](https://github.com/amphioxus/raspi_camera_scripts)
 * [element14 community: I Spy With My Digital Eye .... a Pico PI](https://community.element14.com/challenges-projects/project14/offtheshelf/b/blog/posts/i-spy-with-my-digital-eye-a-pico-pi)
-* [Picamera readthedocs](https://picamera.readthedocs.io/en/latest/)
-* [Picamera library pdf](https://datasheets.raspberrypi.com/camera/picamera2-manual.pdf)
+* [Picamera 1.13 readthedocs](https://picamera.readthedocs.io/en/release-1.13/)
+* [Picamera 2 library pdf](https://datasheets.raspberrypi.com/camera/picamera2-manual.pdf)
 * [Geekworm Raspberry pi case](http://wiki.geekworm.com/P88)
 
 ## more pictures
