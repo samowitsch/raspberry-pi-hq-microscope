@@ -25,7 +25,7 @@ camera.start_preview()
 img = Image.open('overlay.png')
 draw = ImageDraw.Draw(img)
 font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", 34)
-draw.text((10, 5), "RPI 3A+ HQ CAM MICROSCOPE", font=font, align ="left")
+draw.text((10, 5), "RPI 3A+ HQ Cam Microscope v0.1", font=font, align ="left")
 
 pad = Image.new('RGBA', (
     ((img.size[0] + 31) // 32) * 32,
