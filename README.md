@@ -77,7 +77,7 @@ It has also 5 buttons that can be used to add custom functions with python.
 | ![](spacer/spacer.thumb.png)                        | 1 (optional) | [spacer](spacer/README.md) for the heavy duty stand            |
 | ![](pics/bom/edimax-usb-wifi.thumb.jpg)             | 1 (optional) | USB Wifi dongle **(optional for "better" wifi connectivity)**  |
 | ![](pics/pcb/pcb-front.thumb.jpg)                   | 1 (optional) | [pcb](pcb/README.md) **(optional. depending to your needs.)**                       |
-| ![](pics/bom/header-female-40pin-2x20.thumb.jpg)    | 1 (optional) | header femal 2x20 pin **(optional. depending to your needs.)** |
+| ![](pics/bom/header-female-40pin-2x20.thumb.jpg)    | 1 (optional) | header female 2x20 pin **(optional. depending to your needs.)** |
 | ![](pics/bom/push-button.thumb.jpg)                 | 5 (optional) | push button 6x6 **(optional. depending to your needs.)**       |
 
 ## Software
